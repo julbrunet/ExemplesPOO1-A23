@@ -8,16 +8,25 @@ package semaine02.methodes;
  */
 public class IntroMethodes {
     public static void main(String[] args) {
+
         new IntroMethodes();
+
     }
+
+
+    public void afficher3fois4() {
+
+        int resultat = 3*4;
+        System.out.println("3*4 = " + resultat);
+
+    }
+
+
+
+
 
     public IntroMethodes(){
         afficher3fois4();
-    }
-
-    public void afficher3fois4() {
-        int resultat = 3*4;
-        System.out.println("3*4 = " + resultat);
     }
 
 }

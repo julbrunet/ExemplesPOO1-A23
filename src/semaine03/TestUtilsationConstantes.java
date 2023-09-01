@@ -1,4 +1,4 @@
-package semaine02;
+package semaine03;
 
 /**
  * Semaine02
@@ -12,10 +12,12 @@ public class TestUtilsationConstantes {
 
 
     public static void main(String[] args) {
-        System.out.println("Voici une constante définie hors de la méthode : " + VITESSE_LUMIERE);
+        final double VITESSE_SON = 343 ;
+        System.out.println("Voici une constante définie dans de la méthode : " + VITESSE_SON);
     }
 
     public void test(){
         System.out.println("Voici une constante définie hors de la méthode (depuis n'importe ou! : " + VITESSE_LUMIERE);
+        //On ne peut pas accéder à VITESSE_SON ici
     }
 }

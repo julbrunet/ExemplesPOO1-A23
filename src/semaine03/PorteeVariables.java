@@ -12,14 +12,16 @@ public class PorteeVariables {
         int a = 3;
         PorteeVariables objet = new PorteeVariables();
         objet.methode1();
-        objet.methode2();
+        objet.methode2(a);
         // b et c sont inconnus ici!
 
     }
 
-    public void methode2() {
+    public void methode2(int nombre) {
+        //nombre est un parametre formel, il est valide uniquement dans la méthode!
         //b n'est valide que dans cette methode
         int b=5;
+        b += nombre;
         // a et c sont inconnus ici!
     }
 

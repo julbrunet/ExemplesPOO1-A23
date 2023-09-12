@@ -1,4 +1,4 @@
-package semaine03;
+package semaine05;
 
 /**
  * ExemplesPOO1

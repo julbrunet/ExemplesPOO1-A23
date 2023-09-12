@@ -31,7 +31,7 @@ public class Pythagore {
         int aPlusBCarre = maitre.calculerCarre(aPlusb);
         int cCarre = maitre.calculerCarre(17);
         int sommeFinale = maitre.calculerSomme(aPlusBCarre, cCarre);
-        System.out.println("5^2+3^2= " + sommeFinale);
+        System.out.println("(23+44)^2+17^2= " + sommeFinale);
         System.out.println("-------------------------------");
 
         res = maitre.carreSommeCarre(1,1, 1);

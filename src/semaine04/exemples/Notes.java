@@ -7,6 +7,9 @@ public class Notes {
 
     }
 
+
+
+
     public char calculerNote(double pNote) {
         char grade = 'G';
         if (pNote < 0 || pNote > 100) {

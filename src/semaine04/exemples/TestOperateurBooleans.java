@@ -8,9 +8,16 @@ package semaine04.exemples;
  */
 public class TestOperateurBooleans {
     public static void main(String[] args) {
-        TestOperateurBooleans test = new
-                TestOperateurBooleans();
-        test.testeOperateurs();
+        TestOperateurBooleans test = new TestOperateurBooleans();
+//        test.testeOperateurs();
+
+        int a= 25;
+        int b = 20;
+
+        int max = a<b ? b : a;
+        System.out.println("max = " + max);
+
+
     }
 
     private void testeOperateurs() {
@@ -35,5 +42,10 @@ public class TestOperateurBooleans {
     public boolean testOr(int a , int b){
         return a < 5 || b<=10;
     }
+
+
+
+
+
 
 }

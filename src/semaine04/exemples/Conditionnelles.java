@@ -3,18 +3,18 @@ package semaine04.exemples;
 public class Conditionnelles {
     public static void main(String[] args) {
         Conditionnelles conditionnelles = new Conditionnelles();
+//
+//        System.out.println(" 2 est pair: " + conditionnelles.estPair(2));
+//        System.out.println(" 5 est pair: " + conditionnelles.estPair(5));
 
-        System.out.println(" 2 est pair: " + conditionnelles.estPair(2));
-        System.out.println(" 5 est pair: " + conditionnelles.estPair(5));
+//
+//        System.out.println("2 est " + conditionnelles.verifierParite(2));
+//        System.out.println("5 est " + conditionnelles.verifierParite(5));
 
-
-        System.out.println("2 est " + conditionnelles.verifierParite(2));
-        System.out.println("5 est " + conditionnelles.verifierParite(5));
-
-
-        System.out.println("2 est " + conditionnelles.verifierNombre(2));
-        System.out.println("5 est " + conditionnelles.verifierNombre(5));
-        System.out.println("0 est " + conditionnelles.verifierNombre(0));
+//
+//        System.out.println("2 est " + conditionnelles.verifierNombre(2));
+//        System.out.println("5 est " + conditionnelles.verifierNombre(5));
+//        System.out.println("0 est " + conditionnelles.verifierNombre(0));
 
         System.out.println("1 est " + conditionnelles.nommerJour(1));
         System.out.println("2 est " + conditionnelles.nommerJour(2));
@@ -24,15 +24,21 @@ public class Conditionnelles {
         System.out.println("6 est " + conditionnelles.nommerJour(6));
         System.out.println("7 est " + conditionnelles.nommerJour(7));
         System.out.println("9 est " + conditionnelles.nommerJour(9));
+
+        System.out.println("1 est " + conditionnelles.nommerFinDeSemaine(1));
+        System.out.println("2 est " + conditionnelles.nommerFinDeSemaine(2));
+        System.out.println("3 est " + conditionnelles.nommerFinDeSemaine(3));
+        System.out.println("4 est " + conditionnelles.nommerFinDeSemaine(4));
+        System.out.println("5 est " + conditionnelles.nommerFinDeSemaine(5));
+        System.out.println("6 est " + conditionnelles.nommerFinDeSemaine(6));
+        System.out.println("7 est " + conditionnelles.nommerFinDeSemaine(7));
+        System.out.println("9 est " + conditionnelles.nommerFinDeSemaine(9));
     }
 
-
-
     /**
-     * Vérifie si le nombre en parametre est pair
-     *
-     * @param nombre
-     * @return
+     * Vérifie si le nombre passé en parametre est pair
+     * @param nombre le nombr e averifier
+     * @return true si pair et false sinon...
      */
     public boolean estPair(int nombre) {
         boolean reponse = false;
@@ -41,7 +47,7 @@ public class Conditionnelles {
         }
         return reponse;
         // ou en une seule instruction:
-        // return nombre % 2 == 0;
+//         return nombre % 2 == 0;
     }
 
     /**
@@ -54,7 +60,8 @@ public class Conditionnelles {
         String parite;
         if (nombre % 2 == 0) {
             parite = "PAIR";
-        } else {
+        }
+        else {
             parite = "IMPAIR";
         }
         return parite;
@@ -93,7 +100,6 @@ public class Conditionnelles {
                 break;
             case 4:
                 jourSemaine = "Mercredi";
-                break;
             case 5:
                 jourSemaine = "Jeudi";
                 break;
@@ -109,5 +115,19 @@ public class Conditionnelles {
         return jourSemaine;
     }
 
+    public String nommerFinDeSemaine(int jour) {
+        String jourSemaine;
 
+        switch (jour) {
+            case 1,7:
+                jourSemaine = "FDS";
+                break;
+            case 2,3,4,5,6:
+                jourSemaine = "Semaine";
+                break;
+            default:
+                jourSemaine = "Invalide";
+        }
+        return jourSemaine;
+    }
 }

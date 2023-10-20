@@ -40,20 +40,6 @@ public class NotesCorrige {
         return passage;
     }
 
- /*   public boolean suffitPassage(int note) {
-        boolean passage = false;
-        if (note < 0 || note >100 ){
-            System.out.println("La note est invalide");
-        }
-
-        if (note >= 60 && note <= 100) {
-            passage = true;
-        }// ca va nus prendre qqch por grouper les deux instructions ci-dessus!!le et!!
-        return passage;
-    }
-*/
-
-
     private void testCalculerNote() {
         System.out.println(calculerNote(-1)=='G');
         System.out.println(calculerNote(0)=='F');

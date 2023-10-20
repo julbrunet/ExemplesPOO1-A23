@@ -1,13 +1,31 @@
 package semaine04.exemples;
 
+import java.sql.SQLOutput;
+
 public class Notes {
 
     public static void main(String[] args) {
-
-
+        Notes notes = new Notes();
+        System.out.println("-10 est suffisante: " + notes.validerNote(-10));
+        System.out.println("0 est suffisante: " + notes.validerNote(0));
+        System.out.println("40 est suffisante: " + notes.validerNote(40));
+        System.out.println("60 est suffisante: " + notes.validerNote(60));
+        System.out.println("70 est suffisante: " + notes.validerNote(70));
+        System.out.println("100 est suffisante: " + notes.validerNote(100));
+        System.out.println("120 est suffisante: " + notes.validerNote(120));
     }
 
 
+    public boolean validerNote(int note) {
+        boolean passage = false;
+        if (note < 0 || note > 100) {
+            System.out.println("La note est invalide");
+        }
+        if (note >= 60 && (note <= 100)) {
+            passage = true;
+        }
+        return passage;
+    }
 
 
     public char calculerNote(double pNote) {

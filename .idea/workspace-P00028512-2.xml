@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="542c39c4-32f5-4d26-898f-1d253824ad0e" name="Changes" comment="relache" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../../../../../../../Program Files/Java/jdk-18.0.1.1/lib/src.zip!/java.base/java/lang/Integer.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2UhqEI6QhfVcHi4gB3ycIKrn5hI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/julien.brunet/OneDrive - Cégep Limoilou/Cegep/A23/POO1/Cours POO1/ExemplesCours/ExemplesPOO1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "fileTemplates",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\julien.brunet\OneDrive - Cégep Limoilou\Cegep\A23\POO1\Cours POO1\ExemplesCours\ExemplesPOO1\src\semaine03" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\julien.brunet\OneDrive - Cégep Limoilou\Cegep\A23\POO1\Cours POO1\ExemplesCours\ExemplesPOO1\src\semaine07\exemples" />
+      <recent name="C:\Users\julien.brunet\OneDrive - Cégep Limoilou\Cegep\A23\POO1\Cours POO1\ExemplesCours\ExemplesPOO1\src\semaine04" />
+      <recent name="C:\Users\julien.brunet\OneDrive - Cégep Limoilou\Cegep\A23\POO1\Cours POO1\ExemplesCours\ExemplesPOO1\src\semaine02" />
+      <recent name="C:\Users\julien.brunet\OneDrive - Cégep Limoilou\Cegep\A23\POO1\Cours POO1\ExemplesCours\ExemplesPOO1\src\semaine01\exemples" />
+      <recent name="C:\Users\julien.brunet\OneDrive - Cégep Limoilou\Cegep\A23\POO1\Cours POO1\ExemplesCours\ExemplesPOO1\src\semaine01" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="semaine07" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="semaine08.exemples_corriges" />
+      <recent name="semaine09.exemples" />
+      <recent name="semaine09.exemples_corriges" />
+      <recent name="semaine07.exemples" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.PassageTableaux">
+    <configuration name="ExercicesCours" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="semaine08.exemples_corriges.ExercicesCours" />
+      <module name="ExemplesPOO1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="semaine08.exemples_corriges.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PassageTableaux" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="semaine08.exemples_corriges.PassageTableaux" />
+      <module name="ExemplesPOO1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="semaine08.exemples_corriges.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTableaux" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="semaine08.exemples.TestTableaux" />
+      <module name="ExemplesPOO1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="semaine08.exemples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="semaine07.exemples.BouclesImbriquees" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="semaine07.exemples.BouclesImbriquees" />
+      <module name="ExemplesPOO1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="semaine07.exemples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="semaine08.exemples.TableauxStatiques" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="semaine08.exemples.TableauxStatiques" />
+      <module name="ExemplesPOO1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="semaine08.exemples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PassageTableaux" />
+        <item itemvalue="Application.TestTableaux" />
+        <item itemvalue="Application.semaine08.exemples.TableauxStatiques" />
+        <item itemvalue="Application.ExercicesCours" />
+        <item itemvalue="Application.semaine07.exemples.BouclesImbriquees" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="542c39c4-32f5-4d26-898f-1d253824ad0e" name="Changes" comment="" />
+      <created>1693402048020</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1693402048020</updated>
+      <workItem from="1693402049288" duration="23000" />
+      <workItem from="1693402121270" duration="327000" />
+      <workItem from="1693403572442" duration="613000" />
+      <workItem from="1693404200900" duration="546000" />
+      <workItem from="1693405276519" duration="872000" />
+      <workItem from="1693418157244" duration="71000" />
+      <workItem from="1693419607778" duration="617000" />
+      <workItem from="1693483921816" duration="7717000" />
+      <workItem from="1693494285404" duration="1330000" />
+      <workItem from="1693496176847" duration="3013000" />
+      <workItem from="1693501371549" duration="454000" />
+      <workItem from="1693502874704" duration="774000" />
+      <workItem from="1693588094713" duration="1194000" />
+      <workItem from="1693591392795" duration="8438000" />
+      <workItem from="1693872750516" duration="2892000" />
+      <workItem from="1693923886434" duration="627000" />
+      <workItem from="1693927613781" duration="2998000" />
+      <workItem from="1694005975523" duration="28000" />
+      <workItem from="1694197303334" duration="1556000" />
+      <workItem from="1694479312918" duration="2217000" />
+      <workItem from="1694525167777" duration="850000" />
+      <workItem from="1694526037079" duration="7467000" />
+      <workItem from="1694631027206" duration="5744000" />
+      <workItem from="1694693650875" duration="4923000" />
+      <workItem from="1694785090249" duration="5666000" />
+      <workItem from="1694801429256" duration="51000" />
+      <workItem from="1694802121940" duration="2162000" />
+      <workItem from="1694809384286" duration="1395000" />
+      <workItem from="1695134116011" duration="800000" />
+      <workItem from="1695135989875" duration="2647000" />
+      <workItem from="1695147745841" duration="2339000" />
+      <workItem from="1695212600119" duration="817000" />
+      <workItem from="1695223040224" duration="1202000" />
+      <workItem from="1695233200860" duration="3221000" />
+      <workItem from="1695240178085" duration="28000" />
+      <workItem from="1695298135002" duration="481000" />
+      <workItem from="1695748312040" duration="394000" />
+      <workItem from="1696263510352" duration="779000" />
+      <workItem from="1696344875194" duration="4191000" />
+      <workItem from="1696351437153" duration="1661000" />
+      <workItem from="1696357873029" duration="170000" />
+      <workItem from="1696358126792" duration="47000" />
+      <workItem from="1696358691846" duration="106000" />
+      <workItem from="1696358869413" duration="20000" />
+      <workItem from="1696359016928" duration="148000" />
+      <workItem from="1696359238849" duration="7000" />
+      <workItem from="1696429853252" duration="2236000" />
+      <workItem from="1696514358557" duration="844000" />
+      <workItem from="1696616249978" duration="4568000" />
+      <workItem from="1696871190907" duration="33000" />
+      <workItem from="1697460130243" duration="2894000" />
+      <workItem from="1697542935950" duration="604000" />
+      <workItem from="1697559371718" duration="5387000" />
+      <workItem from="1697569914372" duration="1691000" />
+      <workItem from="1697636485847" duration="6600000" />
+      <workItem from="1697658243971" duration="1861000" />
+      <workItem from="1697716802608" duration="5629000" />
+      <workItem from="1697822685830" duration="909000" />
+    </task>
+    <task id="LOCAL-00001" summary="add some files">
+      <created>1693495607167</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1693495607167</updated>
+    </task>
+    <task id="LOCAL-00002" summary="cours 4">
+      <created>1693588675904</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1693588675904</updated>
+    </task>
+    <task id="LOCAL-00003" summary="cours 4">
+      <created>1693872761700</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1693872761700</updated>
+    </task>
+    <task id="LOCAL-00004" summary="cours 5">
+      <created>1693922238918</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1693922238918</updated>
+    </task>
+    <task id="LOCAL-00005" summary="cours 7">
+      <created>1694479916640</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694479916640</updated>
+    </task>
+    <task id="LOCAL-00006" summary="cours 7">
+      <created>1694479948301</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1694479948301</updated>
+    </task>
+    <task id="LOCAL-00007" summary="cours 7">
+      <created>1694481413754</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1694481413754</updated>
+    </task>
+    <task id="LOCAL-00008" summary="cours 7">
+      <created>1694481509852</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1694481509852</updated>
+    </task>
+    <task id="LOCAL-00009" summary="relache">
+      <created>1697824184607</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1697824184608</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add some files" />
+    <MESSAGE value="cours 4" />
+    <MESSAGE value="cours 5" />
+    <MESSAGE value="cours 7" />
+    <MESSAGE value="relache" />
+    <option name="LAST_COMMIT_MESSAGE" value="relache" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/semaine04/exemples/Conditionnelles.java</url>
+          <line>109</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/semaine05/TestInteger.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/semaine07/exemples/BouclesImbriquees.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/semaine08/exemples/TableauxStatiques.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

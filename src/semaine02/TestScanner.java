@@ -1,36 +1,47 @@
 package semaine02;
 
-
 import java.util.Scanner;
 
+
+
 /**
- * Semaine02
- *
- * @author Julien.Brunet
- * @since 2023-08-29
+ * ExemplesPOO1.iml 
+ * @author Julien.Brunet 
+ * @since 2024-09-06
  */
 public class TestScanner {
     public static void main(String[] args) {
-        new TestScanner();
+        TestScanner test=new TestScanner();
+        test.demanderrInfoEtAfficher();
     }
 
-    public  TestScanner(){
+    public void demanderrInfoEtAfficher() {
 
-        Scanner outilScanner = new Scanner(System.in);
+        Scanner  saisie = new Scanner(System.in);
+        System.out.println("Comment t'appelles-tu? ");
+        String nom = saisie.nextLine();
 
-        System.out.println("Comment tu t'appelles?");
-        String nom = outilScanner.nextLine();
+        System.out.println("Quel age as-tu? ");
+        int age = saisie.nextInt();
 
-        System.out.println("Quel age as-tu?");
-        int age = outilScanner.nextInt();
-        outilScanner.nextLine();//pour gerer le retour de ligne pas pris avec l'entier precedent
+        System.out.println("Quel es ton poids? ");
+        double poids = saisie.nextDouble();
 
-        System.out.println("Es tu vivant?");
-        String etat = outilScanner.nextLine();
+        //pour gerer le probleme de scanner
+        saisie.nextLine();
+
+        System.out.println("Quel est ta nationalite?");
+        String nationalite= saisie.nextLine();
+
+        System.out.println(" Bienvenue "+ nom);
+        System.out.println(" tu as  "+ age + " ans");
+        System.out.println(" tu peses  "+ poids + " kg");
+        System.out.println(" tu viens du  "+nationalite);
 
 
-        System.out.println("Bienvenue au cours: " + nom + " (" + age + "  ans)" + etat);
 
-        outilScanner.close();
+
     }
+
+
 }

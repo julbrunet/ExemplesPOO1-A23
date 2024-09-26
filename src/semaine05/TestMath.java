@@ -9,6 +9,12 @@ package semaine05;
 public class TestMath {
 
     public static void main(String[] args) {
-        Math.random();
+
+        int d;
+        do {
+            d =  ((int) (Math.random()*76))+1950;
+            System.out.println("Nombre au hasard: " + d);
+        }while(d>=1950 && d<=2025);
+
     }
 }

@@ -24,10 +24,10 @@ public class ExercicesCours {
         for (int i = 0; i < tab2.length; i++) {
             tab2[i] = i+10;
         }
-//        int[] tab2={10,11,12,13,14,1,16,17};
+//        int[] tab2={10,11,12,13,14,15,16,17};
         // Afficher le résultat.
 
-        System.out.println("2." + Arrays.toString(tab2));
+        System.out.println("2. " + Arrays.toString(tab2));
 
 
         //3. Écrire les instructions Java qui placeront dans tab1 la valeur 0 dans les positions impaires
@@ -85,8 +85,11 @@ public class ExercicesCours {
      */
     public int calculerSomme(int[] tableau) {
         int somme = 0;
-        for (int i = 0; i < tableau.length; i++) {
-            somme += tableau[i];
+
+        //Utilisons un iterateur pour changer...
+        for (int courant : tableau) {
+            somme += courant;
+
         }
         return somme;
     }

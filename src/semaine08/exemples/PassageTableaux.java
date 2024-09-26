@@ -17,9 +17,9 @@ public class PassageTableaux {
      */
 
     /**
-     * Ecrire une méthode carreTableau qui recoit un tableau d'entiers en parametre
-     * et retourne un nouveau tableau avec les elements du premeir elevés au carré
-     * @param tableau un tableau d'entiers
+     * Ecrire une méthode inverserTableau qui recoit un tableau d'entiers en parametre
+     * et retourne un nouveau tableau avec les elements du premeir dans L,orde inverse
+     * @param original un tableau d'entiers
      * @return un nouveau tableau d'entiers
      */
 
@@ -28,7 +28,6 @@ public class PassageTableaux {
      * et ajoute 10 a chacun des entiers
      * @param tableau un tableau d'entiers
      */
-
 
 
 }

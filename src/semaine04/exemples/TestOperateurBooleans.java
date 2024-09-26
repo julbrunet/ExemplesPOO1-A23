@@ -9,7 +9,7 @@ package semaine04.exemples;
 public class TestOperateurBooleans {
     public static void main(String[] args) {
         TestOperateurBooleans test = new TestOperateurBooleans();
-//        test.testeOperateurs();
+        test.testeOperateurs();
 
         int a= 25;
         int b = 20;
@@ -20,7 +20,7 @@ public class TestOperateurBooleans {
 
     }
 
-    private void testeOperateurs() {
+    public void testeOperateurs() {
 
         System.out.println(testAnd(2,6));
         System.out.println(testAnd(5,10));

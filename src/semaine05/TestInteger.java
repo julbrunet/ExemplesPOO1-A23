@@ -19,7 +19,6 @@ public class TestInteger {
         System.out.println("Si on ajoute un à l'entier : " + (intValeur + 1));
         System.out.println("Si on ajoute un à la string : " + (strValeur + 1));
 
-
 //
 //        String autreValeur = "douze";
 //        //Leve une exception...(erreur d'execution)
@@ -28,7 +27,7 @@ public class TestInteger {
 //
 //        System.out.println("L'entier est " + intValeur );
 
-        Double.parseDouble("2.3");
-
+        double a = Double.parseDouble("2,3");
+        System.out.println("La chaine est " + a);
     }
 }

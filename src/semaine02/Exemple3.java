@@ -76,6 +76,7 @@ public class Exemple3 {
         prenom = sc.nextLine();
         
         System.out.println("Vous etes: " + prenom + " et vous avez: "+nbBilles + " billes.");
+        System.out.println(TestUtilsationConstantes.VITESSE_LUMIERE);
     }
 
 }

@@ -9,9 +9,6 @@ public class TableauxStatiques {
 
         test.decouverte();
 
-        test.methode1();
-
-        test.methode2();
     }
 
     public void decouverte() {
@@ -82,23 +79,5 @@ public class TableauxStatiques {
         System.out.println(Arrays.toString(tab));
     }
 
-    /**
-     * Initialiser un tableau de 20 doubles
-     * Le remplir avec les nombres de 0.01 à 0.20.
-     * Afficher tous ses éléments séparés par un espace
-     */
-    public void methode1() {
 
-    }
-
-    /**
-     * Parcourir le tableau
-     * Remplacer Mercredi par Dimanche
-     * Parcourir le tableau avec une boucle pour afficher tous les éléments
-     */
-    public void methode2() {
-        String[] tableau = {"Lundi", "Mardi", "Mercredi", " jeudi", "Vendredi"};
-
-
-    }
 }

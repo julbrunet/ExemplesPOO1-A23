@@ -14,10 +14,16 @@ public class TestInteger {
         int intValeur = Integer.parseInt( strValeur );
         System.out.println("La chaine est " + strValeur);
         System.out.println("L'entier est " + intValeur );
+//
+//
+//        System.out.println("Si on ajoute un à l'entier : " + (intValeur + 1));
+//        System.out.println("Si on ajoute un à la string : " + (strValeur + 1));
 
 
-        System.out.println("Si on ajoute un à l'entier : " + (intValeur + 1));
-        System.out.println("Si on ajoute un à la string : " + (strValeur + 1));
+
+        double value = Double.parseDouble("3.24");
+        System.out.println(value+2);
+
 
 //
 //        String autreValeur = "douze";
@@ -26,8 +32,8 @@ public class TestInteger {
 //        intValeur = Integer.parseInt(  autreValeur);
 //
 //        System.out.println("L'entier est " + intValeur );
-
-        double a = Double.parseDouble("2,3");
-        System.out.println("La chaine est " + a);
+//
+//        double a = Double.parseDouble("2,3");
+//        System.out.println("La chaine est " + a);
     }
 }

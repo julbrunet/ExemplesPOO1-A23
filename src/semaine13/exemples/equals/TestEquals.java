@@ -1,7 +1,7 @@
 package semaine13.exemples.equals;
 
-import java.util.Calendar;
-import java.util.Date;
+import java.time.LocalDate;
+
 
 /**
  * ExemplesPOO1
@@ -11,10 +11,12 @@ import java.util.Date;
  */
 public class TestEquals {
     public static void main(String[] args) {
-        Calendar calendar = Calendar.getInstance();
-        Date date1 = calendar.getTime();
-        Date refDate1 = date1;
-        Date copDate1 = calendar.getTime();
+
+        LocalDate date1 = LocalDate.now();
+        LocalDate refDate1 = date1;
+        LocalDate copDate1 = LocalDate.now();
+
+
         System.out.println("date1:\t\t" + date1);
         System.out.println("refDate1:\t" + refDate1);
         System.out.println("copDate1:\t" + copDate1);

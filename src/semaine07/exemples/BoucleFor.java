@@ -7,39 +7,38 @@ public class BoucleFor {
     public static void main(String[] args) {
 
         BoucleFor test = new BoucleFor();
-//        System.out.println("5 salutations identiques:");
-//        test.saluerCinqFois();
+        System.out.println("5 salutations identiques:");
+        test.saluerCinqFois();
 
-//        System.out.println("5 salutations différentes:");
-//        test.saluerCinqFoisDifferement();
-//
-//        System.out.println("10 nombresAleatoires:");
-//        test.genererDixNombresInferieurCent();
-//
-//        System.out.println("3 nombresAleatoires:");
-//        test.genererNombresInferieurCent(3);
-//
-//        System.out.println("8 nombresAleatoires:");
-//        test.genererNombresInferieurCent(8);
-////
-//        System.out.println("saluer 5 pairs:");
-//        test.saluerMonsieurPairsUniquement();
-////
-//        System.out.println("saluer 5 impairs depuis 11:");
-//        test.saluerMonsieursImpairsEntre10et20();
+        System.out.println("5 salutations différentes:");
+        test.saluerCinqFoisDifferement();
 
-////
-//        System.out.println("saluer 6 pairs decroissants depuis 20:");
-//        test.saluerMonsieursPairsEtDecroissants();
-//
-//
-//        System.out.println("challenge 1:");
-//        System.out.println("3 nombres sur 2 lignes :");
-//        test.genererNombreAleatoirsEnLignes(3,2);
-//
-//        System.out.println("5 nombres sur 3 lignes :");
-//        test.genererNombreAleatoirsEnLignes(5,3);
-//
+        System.out.println("10 nombresAleatoires:");
+        test.genererDixNombresInferieurCent();
+
+        System.out.println("3 nombresAleatoires:");
+        test.genererNombresInferieurCent(3);
+
+        System.out.println("8 nombresAleatoires:");
+        test.genererNombresInferieurCent(8);
+
+        System.out.println("saluer 5 pairs:");
+        test.saluerMonsieurPairsUniquement();
+
+        System.out.println("saluer 5 impairs depuis 11:");
+        test.saluerMonsieursImpairsEntre10et20();
+
+        System.out.println("saluer 6 pairs decroissants depuis 20:");
+        test.saluerMonsieursPairsEtDecroissants();
+
+
+        System.out.println("challenge 1:");
+        System.out.println("3 nombres sur 2 lignes :");
+        test.genererNombreAleatoirsEnLignes(3,2);
+
+        System.out.println("5 nombres sur 3 lignes :");
+        test.genererNombreAleatoirsEnLignes(5,3);
+
         System.out.println("challenge 2:");
         System.out.println("Saluer Monsieur 1 a 10 avec une boucle for vide! :");
         test.saluerDixMonsieur();
@@ -60,9 +59,7 @@ public class BoucleFor {
      * Utilise une boucle for pour générer 5 fois le texte Salut Monsieur
      */
     public void saluerCinqFois() {
-        for (int i = 0; i < 5; i++) {
-            System.out.println("Salut Monsieur");
-        }
+
     }
 
     /**
@@ -74,19 +71,14 @@ public class BoucleFor {
      * Salut Monsieur numero 5
      */
     public void saluerCinqFoisDifferement() {
-        for(int i = 0; i < 5; i++){
-            System.out.println("Salut MOnsieur numero: " + (i+1) );
-        }
+
     }
 
     /**
      * Utilise une boucle for pour générer 10 nombre entre 1 et 100 et les afficher en ligne
      */
     public void genererDixNombresInferieurCent() {
-        for(int i = 0 ; i < 10 ; i++) {
-            System.out.print(genererNombre() + " ");
-        }
-        System.out.println();
+
     }
 
     /**
@@ -95,10 +87,7 @@ public class BoucleFor {
      * @param nombreGenerations le nombre de générations souhaitées
      */
     public void genererNombresInferieurCent(int nombreGenerations) {
-        for(int i = 0 ; i < nombreGenerations ; i++) {
-            System.out.print(genererNombre() + " ");
-        }
-        System.out.println();
+
     }
 
     /**
@@ -111,10 +100,6 @@ public class BoucleFor {
      */
     public void saluerMonsieurPairsUniquement() {
 
-        for(int i = 2; i<=10 ;i+=2){
-            System.out.println("Salut MOnsieur numero: " + i );
-        }
-
     }
 
     /**
@@ -126,10 +111,6 @@ public class BoucleFor {
      * Salut Monsieur numero 19
      */
     public void saluerMonsieursImpairsEntre10et20() {
-
-        for(int i = 11; i<=19 ;i+=2){
-            System.out.println("Salut MOnsieur numero: " + i );
-        }
 
     }
 
@@ -144,9 +125,6 @@ public class BoucleFor {
      */
 
     public void saluerMonsieursPairsEtDecroissants() {
-        for(int i = 20; i>=10 ;i-=2){
-            System.out.println("Salut MOnsieur numero: " + i );
-        }
     }
 
     /**
@@ -166,15 +144,6 @@ public class BoucleFor {
      */
     public void saluerDixMonsieur() {
 
-        int i = 0;
-
-        for(;;) {
-            System.out.println("Salut Monsieur numero: " + (i+1));
-            i++;
-            if(i >=10) {
-                break;
-            }
-        }
     }
 
 }

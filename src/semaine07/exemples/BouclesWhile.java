@@ -37,11 +37,7 @@ public class BouclesWhile {
      * Salut Monsieur numero 5
      */
     public void saluerCinqFoisDifferement() {
-        int i = 1;
-        while (i <= 5) {
-            System.out.println("Salut Monsieur numero " + i);
-            i++;
-        }
+
     }
 
     /**
@@ -49,13 +45,6 @@ public class BouclesWhile {
      * Afficher le nombre et le nombre d'itérations nécessaires
      */
     public void genererNombreSuperieur90AvecWhile() {
-        int nombre = genererNombre();
-        int compteur = 1;
-        while (nombre <= 90) {
-            nombre = genererNombre();
-            compteur++;
-        }
-        System.out.println(nombre + " a ete genre en " + compteur + " iterations!");
 
     }
 
@@ -64,13 +53,7 @@ public class BouclesWhile {
      * Afficher le nombre et le nombre d'itérations nécessaires
      */
     public void genererNombreSuperieur90AvecDoWhile() {
-        int nombre;
-        int compteur = 0;
-        do {
-            nombre = genererNombre();
-            compteur++;
-        } while (nombre <= 90);
-        System.out.println(nombre + " a ete genre en " + compteur + " iterations!");
+
     }
 
 }

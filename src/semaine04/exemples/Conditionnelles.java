@@ -3,30 +3,30 @@ package semaine04.exemples;
 public class Conditionnelles {
     public static void main(String[] args) {
         Conditionnelles conditionnelles = new Conditionnelles();
-//
-//        System.out.println(" 2 est pair: " + conditionnelles.estPair(2));
-//        System.out.println(" 5 est pair: " + conditionnelles.estPair(5));
 
+        System.out.println(" 2 est pair: " + conditionnelles.estPair(2));
+        System.out.println(" 5 est pair: " + conditionnelles.estPair(5));
+//
 //        System.out.println(" 2 est impair: " + conditionnelles.estImpair(2));
 //        System.out.println(" 5 est impair: " + conditionnelles.estImpair(5));
 
+
+        System.out.println("2 est " + conditionnelles.verifierParite(2));
+        System.out.println("5 est " + conditionnelles.verifierParite(5));
 //
-//        System.out.println("2 est " + conditionnelles.verifierParite(2));
-//        System.out.println("5 est " + conditionnelles.verifierParite(5));
-////
-////
-//        System.out.println("2 est " + conditionnelles.verifierNombre(2));
-//        System.out.println("5 est " + conditionnelles.verifierNombre(5));
+//
+        System.out.println("2 est " + conditionnelles.verifierNombre(2));
+        System.out.println("5 est " + conditionnelles.verifierNombre(5));
 //        System.out.println("0 est " + conditionnelles.verifierNombre(0));
 ////
-//        System.out.println("1 est " + conditionnelles.nommerJour(1));
-//        System.out.println("2 est " + conditionnelles.nommerJour(2));
-//        System.out.println("3 est " + conditionnelles.nommerJour(3));
-//        System.out.println("4 est " + conditionnelles.nommerJour(4));
-//        System.out.println("5 est " + conditionnelles.nommerJour(5));
-//        System.out.println("6 est " + conditionnelles.nommerJour(6));
-//        System.out.println("7 est " + conditionnelles.nommerJour(7));
-//        System.out.println("9 est " + conditionnelles.nommerJour(9));
+        System.out.println("1 est " + conditionnelles.nommerJour(1));
+        System.out.println("2 est " + conditionnelles.nommerJour(2));
+        System.out.println("3 est " + conditionnelles.nommerJour(3));
+        System.out.println("4 est " + conditionnelles.nommerJour(4));
+        System.out.println("5 est " + conditionnelles.nommerJour(5));
+        System.out.println("6 est " + conditionnelles.nommerJour(6));
+        System.out.println("7 est " + conditionnelles.nommerJour(7));
+        System.out.println("9 est " + conditionnelles.nommerJour(9));
 //
         System.out.println("1 est " + conditionnelles.nommerFinDeSemaine(1));
         System.out.println("2 est " + conditionnelles.nommerFinDeSemaine(2));
@@ -36,6 +36,7 @@ public class Conditionnelles {
         System.out.println("6 est " + conditionnelles.nommerFinDeSemaine(6));
         System.out.println("7 est " + conditionnelles.nommerFinDeSemaine(7));
         System.out.println("9 est " + conditionnelles.nommerFinDeSemaine(9));
+
     }
 
 
@@ -95,49 +96,51 @@ public class Conditionnelles {
 
     public String nommerJour(int jour) {
         String nomJour;
-        switch (jour) {
+
+        switch(jour) {
             case 1:
-                nomJour = "Lundi";
-        break;
+                nomJour = "Dimanche";
+                break;
             case 2:
-                nomJour = "Mardi";
+                nomJour = "Lundi";
                 break;
             case 3:
-                nomJour = "Mercredi";
+                nomJour = "MArdi";
                 break;
             case 4:
-                nomJour = "Jeudi";
+                nomJour = "Mercredi";
                 break;
             case 5:
-                nomJour = "Vendredi";
+                nomJour = "Jeudi";
                 break;
             case 6:
-                nomJour = "Samedi";
+                nomJour = "Vendredi";
                 break;
             case 7:
-                nomJour = "Dimanche";
+                nomJour = "Samedi";
                 break;
             default:
                 nomJour = "Invalide";
-
         }
+
         return nomJour;
     }
 
     public String nommerFinDeSemaine(int jour) {
-        String typeJour;
-        switch (jour) {
-            case 1,2,3,4,5:
-                typeJour = "Semaine";
-                break;
-            case 6,7:
-                typeJour = "FDS";
-                  break;
-          default:
-                typeJour = "Invalide";
-        }
-        return typeJour;
+        String nomJour;
 
+        switch(jour) {
+            case 1,7 :
+                nomJour = "FDS";
+                break;
+            case 2,3,4,5,6 :
+                nomJour = "Semaine";
+                break;
+            default:
+                nomJour = "Invalide";
+        }
+
+        return nomJour;
     }
 
 }

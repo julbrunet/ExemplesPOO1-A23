@@ -1,4 +1,4 @@
-package semaine08.exemples;
+package semaine09.exemples;
 
 import java.util.Arrays;
 
@@ -36,7 +36,6 @@ public class TestTableaux {
 
     public void methode(String param) {
         param = "apres";
-
     }
     //Bilan entier pas modifie!!
 }

@@ -37,8 +37,8 @@ public class BoucleFor {
      * Salut Monsieur numero 5
      */
     public void saluerCinqFoisDifferement() {
-        for (int i = 1; i <= 5; i++) {
-            System.out.println("Salut Monsieur numéro " + i);
+        for (int i = 0; i < 5; i++) {
+            System.out.println("Salut Monsieur numéro " + (i + 1));
         }
 
     }
@@ -136,10 +136,10 @@ public class BoucleFor {
      */
     public void saluerDixMonsieur() {
         int i = 1;
-        for ( ; ; ) {
+        for (; ; ) {
             System.out.println("Salut Monsieur numéro " + i);
             i++;
-            if( i>10 ){
+            if (i > 10) {
                 break;
             }
         }

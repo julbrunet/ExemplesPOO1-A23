@@ -34,10 +34,10 @@ public class BoucleFor {
 
         System.out.println("challenge 1:");
         System.out.println("3 nombres sur 2 lignes :");
-        test.genererNombreAleatoirsEnLignes(3,2);
+        test.genererNombreAleatoirsEnLignes(3, 2);
 
         System.out.println("5 nombres sur 3 lignes :");
-        test.genererNombreAleatoirsEnLignes(5,3);
+        test.genererNombreAleatoirsEnLignes(5, 3);
 
         System.out.println("challenge 2:");
         System.out.println("Saluer Monsieur 1 a 10 avec une boucle for vide! :");
@@ -60,6 +60,10 @@ public class BoucleFor {
      */
     public void saluerCinqFois() {
 
+        for (int i = 0; i < 5; i++) {
+            System.out.println("Salut Monsieur");
+        }
+
     }
 
     /**
@@ -72,6 +76,10 @@ public class BoucleFor {
      */
     public void saluerCinqFoisDifferement() {
 
+        for (int i = 0; i < 5; i++) {
+            System.out.println("Salut Monsieur numéro: " + (i+1) );
+        }
+
     }
 
     /**
@@ -79,6 +87,10 @@ public class BoucleFor {
      */
     public void genererDixNombresInferieurCent() {
 
+        for (int i = 0; i < 10; i++) {
+            System.out.print(genererNombre()+ " ");
+        }
+        System.out.println();
     }
 
     /**
@@ -87,7 +99,10 @@ public class BoucleFor {
      * @param nombreGenerations le nombre de générations souhaitées
      */
     public void genererNombresInferieurCent(int nombreGenerations) {
-
+        for (int i = 0; i < nombreGenerations; i++) {
+            System.out.print(genererNombre()+ " ");
+        }
+        System.out.println();
     }
 
     /**
@@ -125,6 +140,11 @@ public class BoucleFor {
      */
 
     public void saluerMonsieursPairsEtDecroissants() {
+
+        for (int i = 20; i >=10; i-=2) {
+            System.out.println("Salut Monsieur numéro: " + i );
+        }
+
     }
 
     /**

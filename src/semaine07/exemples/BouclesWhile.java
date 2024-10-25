@@ -38,6 +38,13 @@ public class BouclesWhile {
      */
     public void saluerCinqFoisDifferement() {
 
+        int compteur =1;
+        while(compteur <= 5) {
+            System.out.println("Bonjour M " + compteur );
+            compteur++;
+        }
+
+
     }
 
     /**
@@ -46,6 +53,14 @@ public class BouclesWhile {
      */
     public void genererNombreSuperieur90AvecWhile() {
 
+        int genere=0;
+        int count=0;
+        while(genere<=90) {
+            genere = genererNombre();
+            count++;
+        }
+        System.out.println(genere + " nbre d'etapes necessaire: "+ count);
+
     }
 
     /**
@@ -53,7 +68,13 @@ public class BouclesWhile {
      * Afficher le nombre et le nombre d'itérations nécessaires
      */
     public void genererNombreSuperieur90AvecDoWhile() {
-
+        int genere;
+        int count=0;
+        do {
+            genere = genererNombre();
+            count++;
+        }while(genere<=90);
+        System.out.println(genere + " nbre d'etapes necessaire: "+ count);
     }
 
 }

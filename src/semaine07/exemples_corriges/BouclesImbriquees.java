@@ -8,32 +8,33 @@ public class BouclesImbriquees {
     public static void main(String[] args) {
         BouclesImbriquees test = new BouclesImbriquees();
 
-        test.afficherTableauEtoiles(3, 5);
+        test.afficherTableauEtoiles(4, 7);
         test.afficherTableauEtoiles(6, 11);
 
         test.forImbriquees(5, 5);
     }
 
     private void afficherTableauEtoiles(int nombreLignes, int nombrerColonnes) {
-        for (int i = 0; i < nombreLignes; i++) {
-            for (int j = 0; j < nombrerColonnes; j++) {
-                System.out.print("*");
-            }
-            System.out.println();
-        }
-    }
 
-    public void forImbriquees(int nombreLignes, int nombrerColonnes) {
+        //Gestion ligne par ligne:
         for (int i = 0; i < nombreLignes; i++) {
+            //gestion des colonnes dans la ligne
             for (int j = 0; j < nombrerColonnes; j++) {
-                if (i > j) {
+
+                if(i==2 && j==4) {
+                    System.out.print("-");
+                }else {
                     System.out.print("*");
-                } else {
-                    System.out.print(" ");
                 }
             }
             System.out.println();
         }
+
+    }
+
+    public void forImbriquees(int nombreLignes, int nombrerColonnes) {
+
+
     }
 }
 

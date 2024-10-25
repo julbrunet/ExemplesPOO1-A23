@@ -1,4 +1,4 @@
-package semaine08.exemples;
+package semaine09.exemples;
 
 public class PassageTableaux {
 

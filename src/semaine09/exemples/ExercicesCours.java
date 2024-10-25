@@ -1,6 +1,4 @@
-package semaine08.exemples;
-
-import java.util.Arrays;
+package semaine09.exemples;
 
 /**
  * CoursPOO1 - semaine09.exemples

@@ -1,4 +1,4 @@
-package semaine08.exemples_corriges;
+package semaine09.exemples_corriges;
 
 import java.util.Arrays;
 
